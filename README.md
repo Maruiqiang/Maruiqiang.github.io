@@ -9,3 +9,6 @@
 
 最后选中自己的云环境，上传部署云环境完成部署，一起学习练习vx：1964525626
 ![image](https://github.com/Maruiqiang/Maruiqiang.github.io/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230414212141.png)
+![image](https://github.com/Maruiqiang/Maruiqiang.github.io/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202304142121411.png)
+![image](https://github.com/Maruiqiang/Maruiqiang.github.io/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202304142121416.png)
+![image](https://github.com/Maruiqiang/Maruiqiang.github.io/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202304142121417.png)
