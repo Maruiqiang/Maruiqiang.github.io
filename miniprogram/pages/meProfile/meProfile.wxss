@@ -1,0 +1,22 @@
+.head {
+  height: 250rpx;
+  background-color: #008000;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40rpx;
+  padding-top: 80rpx;
+}
+
+.img {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,62 @@
+<!-- <view class='nav' style='height:{{navH}}px'>
+首页
+</view> -->
+
+<!--搜索框 -->
+<!-- <view class="head">
+  <input placeholder="30分钟极速达" bindinput="value"></input>
+  <image src="../images/search.png" bindtap="search"></image>
+</view> -->
+<view class="container1">
+  <view class="head">
+    <input placeholder="30分钟极速达" bindinput="value"></input>
+    <image src="../images/search.png" bindtap="search"></image>
+  </view>
+  <view class="body">
+    <!-- 其他内容 -->
+  </view>
+</view>
+
+<!-- 搜索结果 -->
+<view class="search" hidden="{{!searching}}">
+  <view class="search_product" wx:for="{{search_product}}" wx:key="index" data-id="{{item._id}}" bindtap="goToProduct">
+    <view class="left">
+      <image src="{{item.img_src}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+    <text class="right">￥{{item.price}}</text>
+  </view>
+</view>
+<!-- 轮播图 -->
+<swiper class="swiper-container swiper-wrapper swiper-slide" indicator-active-color="yellow" indicator-dots="true" autoplay="true" interval="2000" indicator-color="white" style="height:{{height}}px;">
+  <swiper-item>
+    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img swiper-pagination"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
+  </swiper-item>
+</swiper>
+<!-- 宫格分类入口 -->
+<view class="container">
+  <view class="body" wx:for="{{array}}" wx:key="index" data-name="{{item.name}}" bindtap="selectName">
+    <image src="{{item.img}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+
+<!-- 掌柜推荐 -->
+<view class="tuijian" bindtap="BossRecommend">
+  掌柜推荐  >
+</view>
+<view class="tuijian_1">
+  <view class="product" wx:for="{{array_tuijian}}" wx:key="index">
+    <image src="{{item.img_src}}" bindtap="goToProduct" data-id="{{item._id}}"></image>
+    <text class="name">{{item.name}}</text>
+    <text class="price">￥{{item.price}}</text>
+    <text class="add" bindtap="addToShop" data-id="{{item._id}}">+购物车</text>
+  </view>
+
+</view>

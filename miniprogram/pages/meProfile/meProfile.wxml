@@ -1,0 +1,7 @@
+<view class="head">
+  <view class="user" bindtap="click">
+    <open-data type="userAvatarUrl" mode="aspectFit" class="img" ></open-data>
+    <open-data type="userNickName" lang="zh_CN" class="name"></open-data>
+    
+  </view>
+</view>

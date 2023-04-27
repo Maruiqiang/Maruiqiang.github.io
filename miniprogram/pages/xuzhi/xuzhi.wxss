@@ -1,0 +1,7 @@
+/* pages/xuzhi/xuzhi.wxss */
+.text{
+  width: 90%;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+ text-align: center;
+}

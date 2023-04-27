@@ -1,0 +1,119 @@
+page {
+  background-color: #f3f3f3;
+  height: 100%;
+}
+.body{
+  margin-top: 15rpx;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  background-color: white;
+}
+.bottom_left {
+  width: 70%;
+  line-height: 100rpx;
+}
+
+.bottom_left > text {
+  text-align: center;
+  margin-left: 50rpx;
+  color: #FF3B30;
+  font-size: 32rpx;
+}
+.bottom_right {
+  width: 30%;
+  text-align: center;
+  line-height: 100rpx;
+  color: white;
+  background-color: #34C759;
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 180rpx;
+  align-items: center;
+  position: relative;
+  margin-bottom: 25rpx;
+  border-bottom: solid #E5E5E5 1px;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.middle > .text_top{
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.middle > .text_middle {
+  color: #8E8E93;
+  width: 220rpx;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}
+.middle > .text_bottom {
+  color: #FF3B30;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+.product > .left {
+  margin-left: 50rpx;
+}
+.product > image {
+  width: 100rpx;
+  height: 100rpx;
+  padding-left: 40rpx;
+}
+.product > .right {
+  display: flex;
+  flex-direction: row;
+  border:1rpx solid #E5E5E5;
+  font-weight: bold;
+  width: 180rpx;
+  height:60rpx; 
+  line-height: 60rpx;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 10rpx;
+  background-color: white;
+}
+.product > .right > .right_left {
+  height: 60rpx ;
+  width: 60rpx;
+  border-right:1rpx solid #E5E5E5;
+  font-size: 36rpx;
+  color: #8E8E93;
+}
+.product > .right > .right_middle {
+  height: 60rpx;
+  width: 60rpx;
+  border-right: 1rpx solid #E5E5E5;
+  font-size: 28rpx;
+  color: #8E8E93;
+}
+.product > .right > .right_right {
+  height: 60rpx;
+  width: 60rpx;
+  font-size: 36rpx;
+  color: #8E8E93;
+}
+
+
+.button {
+  width: 100rpx;
+  padding: 10rpx;
+  font-size: 20rpx;
+  margin: 0 auto;
+  border: 1rpx solid gray;
+  margin-top: 30rpx;
+}
