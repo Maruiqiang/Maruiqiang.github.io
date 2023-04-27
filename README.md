@@ -8,3 +8,4 @@
 2.创建数据库表名：Collection、address、admin、order、product_shopping、shopping_car 6张表，其中admin（管理员表）表设置adminId字段：openid（管理员的openid）；role字段：admin
 
 最后选中自己的云环境，上传部署云环境完成部署，一起学习练习vx：1964525626
+![image](https://github.com/Maruiqiang/Maruiqiang.github.io/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230414212141.png)
